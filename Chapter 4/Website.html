@@ -1,0 +1,171 @@
+<html>
+    <head>
+        <title>Star wars</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <style>
+            body{
+                height: 100vh;
+                width: 100vw;
+            }
+            header{
+                background-color: brown;
+                display: flex;
+                justify-content: flex-end;
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+            }
+            .nav-list{
+                display: flex;
+                list-style:none;
+                
+            }
+            .nav-list a{
+                text-decoration: none;
+                color:white;
+                padding: 1em;
+                text-transform:uppercase;
+                font-weight: 700;
+                text-align: center;
+            }
+            .nav-list a:hover{
+                background-color: white;
+                color: brown;
+            }
+            .about-section{
+                display:flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 100%;
+                background-image: url("https://images.unsplash.com/photo-1629959670542-16c60126be7f?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0NXx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+                background-position: center;
+                background-size: cover;
+            }
+            .about-section h2{
+                font-style: italic;
+                font-size: 3rem;
+                color: brown;
+            }
+            .project-section{
+                background-color: #93B5C6;
+                width: 100%;
+                height: 80%;
+            }
+            .project-section h1{
+                text-align: center;
+                padding-top: 2em;
+            }
+            .project-tile{
+                background-color: red;
+                display: block;
+                width: 320px;
+            }
+            .project-image{
+                height: 320px;
+                width: 100%;
+            }
+            .project-title{
+                text-align: center;
+                padding: 0.5em;
+                font-weight: 700;
+                color: white;
+                
+
+            }
+            .project-title:hover{
+                background-color: white;
+                color: brown;
+            }
+            .project-flex a{
+                text-decoration: none;
+            }
+            .project-flex{
+                width: 100%;
+                max-width: 1200px;
+                display: flex;
+                justify-content: center;
+                gap: 1em;
+            }
+            .contact-section{
+                height: 50%;
+                width: 100%;
+                background-color:rgb(70, 68, 68);
+                color:white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+            .footer-part{
+                height: 20%;
+                width: 100%;
+                background-color: gray;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: 700;
+                font-size: 2rem;
+            }
+        </style>
+    </head>
+    <body>
+  <!-- this is header part -->
+       <header>
+           <nav class="nav">
+             <ol class="nav-list">
+                 <li><a href="#about">About</a></li>
+                 <li><a href="#project">Projects</a></li>
+                 <li><a href="#contact">Contact</a></li>
+             </ol>
+           </nav>
+       </header>
+ <!-- this is main and section part -->
+       <main>
+
+            <!-- this is about section -->
+            <section class="about-section" id="about">
+                    <h1>Hi All ! I am Navin</h1>
+                    <h2>I am a web devloper</h2>
+            </section>
+
+             <!-- this is project section -->
+            <section class="project-section" id="project">
+                    <h1>These are some of my shots :)</h1>
+                    <div class="project-flex">
+                        <a target="_blank" class="project-tile" href="https://images.unsplash.com/photo-1629959670542-16c60126be7f?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0NXx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" >
+                            <image alt="nature" class="project-image" src="https://images.unsplash.com/photo-1629959670542-16c60126be7f?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0NXx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"  />
+                            <div class="project-title" >Nature bridge</div>    
+                        </a>
+                        <a target="_blank" class="project-tile" href="https://images.unsplash.com/photo-1629959670542-16c60126be7f?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0NXx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" >
+                            <image alt="nature" class="project-image" src="https://images.unsplash.com/photo-1629959670542-16c60126be7f?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0NXx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"  />
+                            <div class="project-title" >Nature bridge</div>    
+                        </a>
+                        <a target="_blank" class="project-tile" href="https://images.unsplash.com/photo-1629959670542-16c60126be7f?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0NXx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" >
+                            <image alt="nature" class="project-image" src="https://images.unsplash.com/photo-1629959670542-16c60126be7f?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0NXx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"  />
+                            <div class="project-title" >Nature bridge</div>    
+                        </a>
+                    </div>
+            </section>
+
+            <!-- this is contact section -->
+            <section class="contact-section" id="contact">
+                <h1>Let's work together</h1>
+                <div>How do you take your coffee ?</div>
+                <div >
+                   <a style="color:red" href="https://www.google.com/" target="_blank">Google</a>
+                   <a style="color:red" href="https://www.google.com/" target="_blank">Facebook</a>
+                   <a style="color:red" href="https://www.google.com/" target="_blank">Twitter</a>
+                   <a style="color:red" href="https://www.google.com/" target="_blank">Email </a>
+                </div>
+            </section>
+       </main>
+        <!-- this is footer part     -->
+       <footer class="footer-part">
+             &copy; Terms and Conditions apply !
+       </footer>
+    </body>
+</html>
